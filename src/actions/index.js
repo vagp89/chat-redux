@@ -4,10 +4,10 @@ export const setChannel = (channel) => {
     payload: channel
   };
 };
-// TODO: add and export your own actions
-export const selectChannel = (channel) => {
+
+export const addMessage = (message) => {
   return {
-    type: 'SELECT_CHANNEL',
-    payload: channel
+    type: 'ADD_MESSAGE',
+    payload: message
   };
 };

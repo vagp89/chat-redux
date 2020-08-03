@@ -1,6 +1,6 @@
 const SelectedChannelReducer = (state = "", action) => {
   switch (action.type) {
-    case 'SELECT_CHANNEL': {
+    case 'SET_CHANNEL': {
       return action.payload;
     }
     default: {
