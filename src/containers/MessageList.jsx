@@ -6,6 +6,9 @@ class MessageList extends Component {
     return(
       <div className="messageList col-sm-6">
         <h3 className="tittle"><b>Channel #general</b></h3>
+          <div className="boxMessage">
+            box message
+          </div>
           <MessageForm />
       </div>
       )

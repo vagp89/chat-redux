@@ -35,6 +35,7 @@ body {
   margin-top:20px;
   margin-top: 42px;
   width: 225px;
+  cursor: pointer;
 
 }
 
@@ -61,4 +62,13 @@ body {
 
 .text {
   border-bottom: 1px solid #e79cc2;
+}
+
+.boxMessage {
+  background-color: #ebecf1;
+  height: 760px;
+  margin-top: 20px;
+  margin-left: -13px;
+  margin-right: -13px;
+
 }
