@@ -1,7 +1,64 @@
 body {
-  font-family: Helvetica;
+  background-color: #e4e3e3;
 }
-.app {
+.row {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.logo{
+  border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+  width: 57px;
+  height: 58px;
+}
+
+.cardLogo {
+  width: 94px;
+  height: 900px;
+  border-top: 1px solid #383e56;
+  border-bottom: 1px solid #383e56;
+  background-color: #ebecf1;
+}
+
+.channel {
+  background-color: #383e56;
+  height: 900px;
+  color: #e79cc2;
+  font-size: 20px ;
+  font-family: 'Ramabhadra', sans-serif;
+  width: 225px;
+
+}
+
+.channelBox {
+  margin-top:20px;
+  margin-top: 42px;
+  width: 225px;
+
+}
+
+.messageList{
+  background-color: #221f3b;
+  color: #e79cc2;
+  height: 900px;
+}
+
+.form {
+  position:absolute;
+  bottom: 10px;
+}
+
+.textMessage {
+  width: 693px;
+  height: 38px;
+  margin-left: 28px;
+}
+
+.buttomMessage {
+  height: 38px;
+}
+
+.text {
+  border-bottom: 1px solid #e79cc2;
 }
