@@ -7,6 +7,13 @@ import { addMessages } from '../actions';
 import MessageForm from '../containers/MessageForm';
 
 class MessageList extends Component {
+  handleChange(message) {
+    this.getState({ value: event.target.value });
+  }
+
+  handleSubmit(messages) {
+    this.props.messages
+    }
   render(){
     return(
       <div className="messageList col-sm-6">
@@ -22,10 +29,8 @@ class MessageList extends Component {
 
 function mapStateToProps(state) {
   const selectedChannel = state.selectedChannel;
-  const messages = state.messages;
-  const channelMessages = messages.filter(message => message.channel === selectedChannel);
   return {
-    messages: channelMessages,
+    messages: state.messages,
     selectedChannel,
   };
 }

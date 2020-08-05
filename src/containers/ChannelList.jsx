@@ -5,6 +5,7 @@ import { setChannel } from '../actions';
 
 
 class ChannelList extends Component {
+
    handleClick = (channel) => {
      this.props.setChannel(channel);
    }
