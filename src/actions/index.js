@@ -5,9 +5,10 @@ export const setChannel = (channel) => {
   };
 };
 
-export const addMessage = (message) => {
+export const addMessages = (message, selectedChannel) => {
   return {
     type: 'ADD_MESSAGE',
-    payload: message
+    payload: { message, selectedChannel }
   };
 };
+

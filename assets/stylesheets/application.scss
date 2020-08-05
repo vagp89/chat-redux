@@ -51,9 +51,10 @@ body {
 }
 
 .textMessage {
-  width: 693px;
+  width: 560px;
   height: 38px;
   margin-left: 28px;
+  margin-top: 10px;
 }
 
 .buttomMessage {
@@ -66,9 +67,17 @@ body {
 
 .boxMessage {
   background-color: #ebecf1;
-  height: 760px;
+  height: 700px;
   margin-top: 20px;
   margin-left: -13px;
   margin-right: -13px;
+
+}
+
+.UserMessage {
+  width: 560px;
+  height: 38px;
+  margin-left: 56px;
+  margin-top: 10px;
 
 }

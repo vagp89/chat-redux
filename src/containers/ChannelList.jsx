@@ -18,7 +18,7 @@ class ChannelList extends Component {
                <div onClick={() => this.handleClick(channel)}>
                  <h4> {channel} </h4>
                </div>
-             )
+             );
            })}
          </div>
        </div>

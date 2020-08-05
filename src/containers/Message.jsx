@@ -2,7 +2,7 @@ const messages = [
   {
     author: "anonymous92",
     content: "Hello world!",
-    created_at: "2017-09-26T23:03:16.365Z"
+    created_at: "2017-09-26T23:03:16.365Z",
   },
   {
     author: "anonymous77",
